@@ -43,7 +43,7 @@ html, body, section, .full-height {
 
 .optContainer{
   position:fixed;
-  top: 0;
+  top: 35px;
   left: 0;
   z-index: 999;
   width: 100%;
@@ -57,7 +57,7 @@ html, body, section, .full-height {
 
 #toolbarArea{
   position: fixed;
-  top: 25px;
+  top: 60px;
   left: 0;
   z-index: 999;
   width: 100%;
@@ -151,6 +151,19 @@ input[type="radio"]:checked:before {
 .preview-dark-mode textarea{
     background: #151515;
     color: #E0E0E0;
+}
+
+.main-title{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 34px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Lucidatypewriter, monospace;
 }
 
 ::-webkit-scrollbar {

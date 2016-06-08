@@ -25,12 +25,12 @@ var showToolBar = function () {
     document.getElementById("angleToolBar").className = "";
     document.getElementById("angleToolBar").className = "fa fa-angle-double-right";
     document.getElementById("toolbarArea").style.display = "none";
-    document.getElementById("editArea").style.paddingTop = "24px";
+    document.getElementById("editArea").style.paddingTop = "59px";
   }else{
     document.getElementById("angleToolBar").className = "";
     document.getElementById("angleToolBar").className = "fa fa-angle-double-down";
     document.getElementById("toolbarArea").style.display = "block";
-    document.getElementById("editArea").style.paddingTop = "53px";
+    document.getElementById("editArea").style.paddingTop = "88px";
   }
 }
 
